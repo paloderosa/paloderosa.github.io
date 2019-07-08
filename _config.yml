@@ -1,17 +1,19 @@
 # Site settings
-title: *folio
-email: you@example.com
+title: paloderosa
+email: veintequetzales@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A simple, whitespace, helvetica based portfolio theme.
+  Paying the rent with a bit of math
 baseurl:  # the subpath of your site, e.g. /blog/
-url:  # the base hostname & protocol for your site
+url:  paloderosa.github.io
 twitter_username: twitter_username
-github_username:  github_username
+github_username:  paloderosa
 
 # Build settings
 markdown: kramdown
 
 highlighter: rouge
+
+plugins: [jekyll-paginate]
 
 # Pagination
 paginate: 15
