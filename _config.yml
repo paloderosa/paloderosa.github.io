@@ -31,5 +31,8 @@ collections:
   machine_learning:
     output: true
     permalink: /machine_learning/:path/
+  tech:
+    output: true
+    permalink: /tech/:path/
 
 
