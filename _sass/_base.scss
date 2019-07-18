@@ -64,6 +64,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $vertical-spacing-unit / 2;
+    text-align: justify;
 }
 
 .alignright {

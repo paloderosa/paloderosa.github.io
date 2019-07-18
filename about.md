@@ -4,15 +4,14 @@ title: about
 permalink: /about/
 ---
 
-<img class="col one right" src="/img/prof_pic.jpg">
+<img class="col one right" src="/img/peter-en-sophos.jpg">
 
 <br/>
 
 Pedro creció en la Ciudad de México. Su casa tenía un pequeño jardín con girasoles, pero prefirió la calle.
 Como nunca tuvo sentido común ni intuición práctica, estudió física teórica y le fue bien.
 Como tampoco tenía mucho miedo, recorrió las noches de la Ciudad de México durante años, de 11 a 2.
-Sus amigos lo llamaron situacionista y citaron a Vaneigem, el no les entendió. Ahora se guarda
-en casa y se ha vuelto socialmente aceptable.
+Sus amigos lo llamaron situacionista y citaron a Vaneigem, el no les entendió. Ahora vive encerrado en una jaula.
 
 
 
