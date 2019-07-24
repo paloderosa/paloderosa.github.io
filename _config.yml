@@ -34,5 +34,8 @@ collections:
   tech:
     output: true
     permalink: /tech/:path/
+  courses:
+    output: true
+    permalink: /courses/:path/
 
 
