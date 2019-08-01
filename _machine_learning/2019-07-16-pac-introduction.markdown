@@ -24,15 +24,15 @@ Consideremos ahora una clase de hipótesis finita que satisfaga realizabilidad. 
 
 Formemos ahora conjuntos de entrenamiento *independiente e idénticamente distribuidos*, con una distribución, como dijimos, homogénea en $\mathcal{X}$ para un solo punto.
 
-{:start="3"}
-3. En **python**, define un conjunto de métodos que realicen las siguientes tareas: a) formen conjuntos de entrenamiento $S$ con $m$ elementos, b)implementen una hipótesis $h:\mathcal{X}\rightarrow\{0,1\}$ para cada $h$ en $\mathcal{X}$, c) calculen errores empíricos y de generalización y d) seleccionen al rectángulo $\text{ERM}_{\mathcal{H}}$.
+{:start="4"}
+4. En **python**, define un conjunto de métodos que realicen las siguientes tareas: a) formen conjuntos de entrenamiento $S$ con $m$ elementos, b)implementen una hipótesis $h:\mathcal{X}\rightarrow\{0,1\}$ para cada $h$ en $\mathcal{X}$, c) calculen errores empíricos y de generalización y d) seleccionen al rectángulo $\text{ERM}_{\mathcal{H}}$.
 
-4. Simplifiquemos la clase de hipótesis finitas a rectángulos con lados paralelos a los lados de $\mathcal{X}$, *centrados* en $\mathcal{X}$. ¿Cuál es el tamaño de $\mathcal{H}$? Forma un conjunto de entrenamiento con $m$ elementos, para $m = \text{e}^0, \text{e}^{1/2},\text{e}^1, \ldots,m_{\mathcal{H}}$, donde $m_{\mathcal{H}}$ es la complejidad de $S$ para un parámetro de confianza y un error de 0.01. Grafica los puntos de cada conjunto de entrenamiento. Grafica los errores de generalización $L_{(D,f)}$ y empírico $L_S$ para cada hipótesis en $\mathcal{H}$. Obtén algún rectángulo $h_S$ que minimice $L_S$ y grafícalo en $\mathcal{X}$.
+5. Simplifiquemos la clase de hipótesis finitas a rectángulos con lados paralelos a los lados de $\mathcal{X}$, *centrados* en $\mathcal{X}$. ¿Cuál es el tamaño de $\mathcal{H}$? Forma un conjunto de entrenamiento con $m$ elementos, para $m = \text{e}^0, \text{e}^{1/2},\text{e}^1, \ldots,m_{\mathcal{H}}$, donde $m_{\mathcal{H}}$ es la complejidad de $S$ para un parámetro de confianza y un error de 0.01. Grafica los puntos de cada conjunto de entrenamiento. Grafica los errores de generalización $L_{(D,f)}$ y empírico $L_S$ para cada hipótesis en $\mathcal{H}$. Obtén algún rectángulo $h_S$ que minimice $L_S$ y grafícalo en $\mathcal{X}$.
 
-5. Para cada valor de $m$, forma 1000 conjuntos de entrenamiento, selecciona $h_S$ en cada caso y haz un histograma del error $L_{(D,f)}$.
+6. Para cada valor de $m$, forma 1000 conjuntos de entrenamiento, selecciona $h_S$ en cada caso y haz un histograma del error $L_{(D,f)}$.
 
-6. Si seleccionas un valor $\epsilon$ del error de generalización $L_{(D,f)}$, ¿cuántos puntos del histograma tienen error de generalización menor a $\epsilon$?
+7. Si seleccionas un valor $\epsilon$ del error de generalización $L_{(D,f)}$, ¿cuántos puntos del histograma tienen error de generalización menor a $\epsilon$?
 
-7. ¿Qué dice en este caso el resultado de que las clases de hipótesis finitas son PAC aprendibles con complejidad de muestra $\text{log}(\|\mathcal{H}\|/\delta)/\epsilon$?
+8. ¿Qué dice en este caso el resultado de que las clases de hipótesis finitas son PAC aprendibles con complejidad de muestra $\text{log}(\|\mathcal{H}\|/\delta)/\epsilon$?
 
-8. Haz cualquier otra cosa que te resulte interesante.
+9. Haz cualquier otra cosa que te resulte interesante.
