@@ -8,7 +8,7 @@ comments: true
 
 
 ### Problemas
-Problemas 1, 2 del capítulo 5, problemas 5, 7, 9.
+Problemas 1, 2 del capítulo 5, problemas 5, 7, 9 del capítulo 6.
 
 
 ### Para su blog
